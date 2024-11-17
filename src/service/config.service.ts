@@ -3,8 +3,7 @@ export class ConfigService {
 
     public loadEnv() {
         return {
-            oktaIssuer: process.env.OKTA_ISSUER,
-            oktaClientId: process.env.OKTA_CLIENT_ID
+            ...process.env
         };
     }
 }

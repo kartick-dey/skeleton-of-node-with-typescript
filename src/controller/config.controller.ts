@@ -10,7 +10,7 @@ export class ConfigController {
     public loadEnvironmentsForUI(req: Request, res: Response, next: NextFunction) {
         try {
             const env = this.svc.loadEnv();
-            return successHandler(res, 'Environment variables loaded successfully', env);
+            return successHandler(res, 'Environment variables loaded successfully!!!!', env);
         } catch (error) {
             next(error);
         }

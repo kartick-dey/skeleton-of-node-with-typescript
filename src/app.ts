@@ -8,7 +8,7 @@ import AppConfig from './config/appConfig';
 import errorHandler from './utils/errorHandler';
 import { ReqAndResLog } from './middleware/reqAndResLog';
 import { ParseBody } from './middleware/parseBody';
-import rootRouters from './rootRouter';
+import rootRouters from './router/rootRouter';
 
 const app = express();
 
