@@ -6,7 +6,7 @@
             "request": "launch",
             "name": "Debug App",
             "skipFiles": ["<node_modules>/***"],
-            "program": "${workspaceFolder}//src//server.ts", // src/server.ts
+            "program": "${workspaceFolder}//src//server.ts",
             "runtimeArgs": ["-r", "ts-node/register", "-r", "tsconfig-paths/register"],
             "console": "integratedTerminal",
             "outFiles": ["${workspaceFolder}/**/*.(m|c|)js", "!**/node_modules/**"]
